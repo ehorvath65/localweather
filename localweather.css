@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Ariel", serif;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://barjak.eu/esites/localweather/IMG_20171015_074200.jpg");
+}
+
+h2 {
+   text-shadow: 1px 1px 1px lightgreen;
+  color: green;
+  text-align: center;
+}
+h6 {
+  text-shadow: 1px 1px 1px green;
+  color: lightgreen;
+  text-align: right;
+  margin-right: 30%;
+}
+
+
+#coords, #location, #weather {
+   text-shadow: 1px 1px 1px lightgreen;
+  color: green;
+}
+
+#temperature, #uvIndex, #windSpeed {
+  text-shadow: 1px 1px 1px green;
+  color: lightgreen;
+}
